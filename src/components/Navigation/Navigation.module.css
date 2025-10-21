@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.link {
+  padding: 14px 0;
+  line-height: 1.25;
+}

@@ -1,11 +1,12 @@
-import Header from '../components/Header/Header';
 import Layout from '../components/Layout';
+import Hero from '../components/Hero/Hero';
+import Stats from '../components/Stats/Stats';
 
 export default function HomePage() {
   return (
-    <>
-      <Header />
-      <Layout></Layout>
-    </>
+    <Layout>
+      <Hero />
+      <Stats />
+    </Layout>
   );
 }

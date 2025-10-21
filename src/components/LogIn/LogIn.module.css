@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.logInWrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 14px 0;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  stroke: var(--yellow);
+}
+
+.registrationBtn {
+  padding: 14px 39px;
+  border-radius: 12px;
+  background: var(--black);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--white);
+}
