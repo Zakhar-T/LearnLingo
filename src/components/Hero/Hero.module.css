@@ -6,8 +6,9 @@
 
 .titleWrapper {
   padding: 98px 64px;
+  padding-right: 108px;
   border-radius: 30px;
-  background-color: var(--gray);
+  background-color: var(--light-gray);
 }
 
 .title {
@@ -20,7 +21,23 @@
 }
 
 .titlePart {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
   font-style: italic;
+}
+
+.titlePart::after {
+  position: absolute;
+  top: 11px;
+  left: -8px;
+  z-index: -1;
+  content: '';
+  width: 195px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--light-yellow);
 }
 
 .text {
@@ -46,5 +63,6 @@
 }
 
 .img {
+  flex-shrink: 0;
   border-radius: 30px;
 }

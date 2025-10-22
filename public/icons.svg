@@ -5,4 +5,7 @@
       <path d="M0 14C0 6.26806 6.26806 0 14 0C21.7319 0 28 6.26806 28 14" fill="#338AF3"/>
     </g>
   </symbol>
+  <symbol id="dashed-line" viewBox="0 0 1350 200">
+    <rect x="5" y="5" width="1312" height="116" rx="30" ry="30" fill="none" stroke="#f5c851" stroke-width="1.5" stroke-dasharray="15 12"/>
+  </symbol>
 </svg>
