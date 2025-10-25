@@ -3,9 +3,9 @@ import styles from './Stats.module.css';
 export default function Stats() {
   return (
     <div className={styles.wrapper}>
-      {/* <svg className={styles.dashedLine} width="1312" height="116">
+      <svg className={styles.dashedLine} width="1312" height="116">
         <use href="/icons.svg#dashed-line" />
-      </svg> */}
+      </svg>
       <ul className={styles.list}>
         <li className={styles.listItem}>
           <p>32,000 +</p>
