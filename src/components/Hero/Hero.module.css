@@ -43,6 +43,7 @@
 .text {
   width: 471px;
   margin-bottom: 64px;
+  font-weight: 400;
   line-height: 1.37;
   letter-spacing: -0.02em;
 }

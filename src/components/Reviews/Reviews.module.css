@@ -1,0 +1,27 @@
+.list {
+  margin-bottom: 32px;
+}
+
+.list > li {
+  margin-bottom: 32px;
+}
+
+.list > li:last-child {
+  margin-bottom: 0;
+}
+
+.name {
+  margin-bottom: 2px;
+  color: var(--gray);
+}
+
+.ratingWrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.ratingWrapper > p {
+  line-height: 1.29;
+}

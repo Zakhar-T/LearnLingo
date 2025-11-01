@@ -1,0 +1,62 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.title > span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--gray);
+}
+
+.heading > div {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 32px;
+}
+
+.listItem {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.listItem:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: -16px;
+  width: 1px;
+  height: 16px;
+  background-color: rgba(18, 20, 23, 0.2);
+}
+
+.listItem:last-child > span {
+  color: #38cd3e;
+}
+
+.likeBtn {
+  background-color: inherit;
+}
+
+.iconHeart {
+  display: block;
+  width: 26px;
+  height: 26px;
+}

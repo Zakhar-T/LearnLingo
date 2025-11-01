@@ -1,0 +1,64 @@
+.wrapper {
+  position: relative;
+  width: 221px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--gray);
+}
+
+.dropdownBtn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 18px 13px 14px;
+  border-radius: 14px;
+  background-color: var(--white);
+  font-size: 18px;
+  line-height: 1.11;
+}
+
+.icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  transition: rotate 250ms ease-in-out;
+}
+
+.icon.activeIcon {
+  rotate: 180deg;
+  transition: rotate 250ms ease-in-out;
+}
+
+.dropdownMenu {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-top: 4px;
+  background-color: var(--white);
+}
+
+.option {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--gray);
+}
+
+.option:last-child {
+  margin-bottom: 0;
+}
+
+.activeOption {
+  color: initial;
+}
+
+.defaultOption:first-child {
+  color: initial;
+}

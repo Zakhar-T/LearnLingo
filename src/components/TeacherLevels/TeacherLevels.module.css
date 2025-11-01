@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  gap: 8px;
+}
+
+.item {
+  padding: 8px 12px;
+  border: 1px solid var(--gray);
+  border-radius: 35px;
+}
+
+.item:first-child {
+  border-color: var(--yellow);
+  background-color: var(--yellow);
+}
+
+.extended {
+  margin-bottom: 32px;
+}

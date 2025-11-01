@@ -13,12 +13,18 @@ a {
   color: inherit;
 }
 
-button {
+button,
+input,
+optgroup,
+select,
+textarea {
   display: block;
   cursor: pointer;
   padding: 0;
   border: none;
-  line-height: 1.25;
+  font-weight: inherit;
+  line-height: inherit;
+  background-color: inherit;
 }
 
 ul,
@@ -26,4 +32,8 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+img {
+  display: block;
 }
